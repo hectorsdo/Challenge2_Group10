@@ -3,7 +3,7 @@
 
 This repository contains the source code for the "H. pylori Detection Challenge". The project implements two distinct approaches to diagnose *Helicobacter pylori* infection using Whole Slide Images (WSI) without pixel-level annotations.
 
-## 📋 Project Overview
+##Project Overview
 
 We propose a dual approach to handle the lack of local annotations and data inconsistencies:
 
@@ -12,7 +12,7 @@ We propose a dual approach to handle the lack of local annotations and data inco
 
 ---
 
-## ⚙️ Requirements
+##Requirements
 
 * Python 3.8+
 * PyTorch & Torchvision
@@ -24,11 +24,11 @@ We propose a dual approach to handle the lack of local annotations and data inco
 
 ---
 
-## 🚀 Usage Instructions
+## Usage Instructions
 
 The code is designed to run on a Slurm-based HPC cluster.
 
-### 🔹 System 1: Unsupervised Anomaly Detection
+### System 1: Unsupervised Anomaly Detection
 
 **1. Training (Optional)**
 The model is trained on healthy patches to learn the normal tissue manifold.
